@@ -63,5 +63,3 @@ ip netns exec ns1 ip -6 route add unreachable default proto static table 100
 ip netns exec ns1 ip link add link veth macv type macvlan mode passthru nopromisc
 ip netns exec ns1 ip link set dev macv up
 ip netns exec ns1 ip addr add 4000:10::11:1/64 dev macv
-
-exit 0
