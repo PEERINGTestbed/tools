@@ -60,7 +60,3 @@ We note that `ndisc_send_redirect` also performs FIB lookup (by calling [`ip6_ro
  [ip6_route_output]: https://github.com/torvalds/linux/blob/v5.0/net/ipv6/ndisc.c#L1603
 
  [fib6_rule_lookup]: https://github.com/torvalds/linux/blob/v5.0/net/ipv6/route.c#L2109
-
-## TODO
-
-* Test `blackhole default` @ SIX
